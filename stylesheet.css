@@ -1,0 +1,118 @@
+body {
+    margin: 0 auto;
+    /* background-image: url("./assets/images/coding.png");
+    background-size: cover;
+    border: 0;
+    opacity: 0.5; */
+}
+
+.backgroundImage {
+    background-image: url("./assets/images/coding.png");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.2;
+
+}
+
+nav {
+    width: 100%;
+    padding: 2px 0;
+    text-align: right;
+    display: inline-block;
+    text-align: center;
+    z-index: 1;
+}
+
+footer {
+    width: 100%;
+    padding: 2px 0;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+}
+
+.main {
+    opacity: 1;
+    z-index: 1;
+}
+
+footer li {
+    color: black;
+    display: inline-block;
+    padding: 2% 1%;
+    font-size: 30px;
+}
+
+nav ul {
+    display: inline-block; /* Make the list inline-block to center-align */
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+    margin: 5px;
+}
+
+nav li {
+    margin: 0 1px; /* Optional: Add some spacing between list items */
+    display: inline-block;
+    color: black;
+    font-size: 35px;
+}
+
+#name {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+    z-index: 9;
+    opacity: 1;
+}
+
+#job-description {
+    text-align: center;
+    font-size: 30px;
+    margin: 5px auto;
+    margin-bottom: 5px;
+}
+
+.projectBtn {
+    width: 100%;
+    padding: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px black;
+    background-color: rgb(246, 91, 91);
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.projectBtn:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+}
+
+
+.footerBtn {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px black;
+    background-color: black;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+
+}
+
+.footerBtn:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    opacity: 1;
+}
