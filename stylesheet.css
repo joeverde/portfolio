@@ -76,9 +76,9 @@ nav li {
 }
 
 .projectBtn {
-    width: 100%;
+    width: 90%;
     padding: 30px;
-    margin: 10px 0;
+    margin: 10px auto;
     border-radius: 5px;
     border: 1px black;
     background-color: rgb(246, 91, 91);
